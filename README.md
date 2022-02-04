@@ -18,9 +18,9 @@ poetry run pip install --upgrade pip
 poetry install
 ```
 
-Update pytorch if your CUDA version is newer than what's by default (CUDA 10.2) in pypi. For example, if you have CUDA 11.3 on your machine you would run
+This `pyproject.toml` will install the default versino of pytorch that is in pypi (currently CUDA 10.2) However, there may be a CUDA version mimsmatch if you have something newer on your machine. Update pytorch as necessary. For example, if you have CUDA 11.3 on your machine you would run
 ```
-poetry run pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+poetry run pip install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 ```
 
 ## basic agent training
