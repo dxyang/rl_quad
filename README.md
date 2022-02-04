@@ -2,6 +2,8 @@
 Python environment setup including stable baselines, pytorch, and the pybullet drone gym environment
 
 ## setup
+Install [pyenv](https://github.com/pyenv/pyenv-installer) and [poetry](https://python-poetry.org/docs/) for python version management as well as python dependency management, respectively.
+
 
 Use git submodules to get the [gym-pybullet-drones](https://github.com/utiasDSL/gym-pybullet-drones) package
 ```
